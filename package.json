@@ -1,0 +1,22 @@
+{
+  "name": "interval-emitter",
+  "version": "0.1.0",
+  "description": "Emits a specified event at a specified interval for Node applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyalbertyn/interval-emitter.git"
+  },
+  "author": "Anthony Albertyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthonyalbertyn/interval-emitter/issues"
+  },
+  "homepage": "https://github.com/anthonyalbertyn/interval-emitter#readme",
+  "engines": {
+    "node": ">=14"
+  }
+}
