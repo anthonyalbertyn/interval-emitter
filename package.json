@@ -1,5 +1,5 @@
 {
-  "name": "interval-emitter",
+  "name": "@anthonyalbertyn/interval-emitter",
   "version": "0.1.0",
   "description": "Emits a specified event at a specified interval for Node applications",
   "main": "index.js",

@@ -11,7 +11,7 @@ Emit a specified event at a specified interval. See /examples in this node modul
 ## Getting started
 
 ```
-npm install interval-emitter
+npm install @anthonyalbertyn/interval-emitter
 ```
 
 ## Using interval-emitter
