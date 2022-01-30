@@ -19,6 +19,8 @@ npm install interval-emitter
 ```
 const IntervalEmitter = require('interval-emitter');
 
+// First argument is milliseconds (positive integer, required)
+// Second argument is the event name that will be emitted (string, required)
 const myIntervalEmitter = new IntervalEmitter(1000, "my-event");
 
 myIntervalEmitter.start();
