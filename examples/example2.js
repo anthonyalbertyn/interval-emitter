@@ -4,7 +4,7 @@ const IntervalEmitter = require('../lib/interval-emitter');
 // If you are not running and example and have actually
 // installed interval-emitter as a node module, do the require
 // like this:
-// const IntervalEmitter = require('interval-emitter');
+// const IntervalEmitter = require('@anthonyalbertyn/interval-emitter');
 
 async function run() {
     try {
