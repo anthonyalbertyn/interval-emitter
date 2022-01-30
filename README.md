@@ -17,7 +17,7 @@ npm install @anthonyalbertyn/interval-emitter
 ## Using interval-emitter
 
 ```
-const IntervalEmitter = require('interval-emitter');
+const IntervalEmitter = require('@anthonyalbertyn/interval-emitter');
 
 // First argument is milliseconds (positive integer, required)
 // Second argument is the event name that will be emitted (string, required)
