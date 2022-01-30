@@ -1,5 +1,7 @@
 # interval-emitter
 
+IntervalEmitter can be used in server-side Node projects
+
 MIT License, see LICENSE for more details
 
 ## Uses case
@@ -8,11 +10,13 @@ Emit a specified event at a specified interval. See /examples for some use cases
 
 ## Getting started
 
-`npm install interval-emitter`
+```
+npm install interval-emitter
+```
 
 ## Using interval-emitter
 
-`
+```
 const { IntervalEmitter } = require('interval-emitter');
 
 const myIntervalEmitter = new IntervalEmitter(1000, "my-event");
@@ -22,11 +26,14 @@ myIntervalEmitter.start();
 myIntervalEmitter.on('my-event', () => {
     console.log("Hello");
 });
-`
+```
+
 To stop the emitter in your code
-`
+
+```
 myIntervalEmitter.stop();
-`
+```
+
 You can create more than one IntervalEmitter in your code.
 
 ## Limitations
