@@ -6,7 +6,7 @@ MIT License, see LICENSE for more details
 
 ## Uses case
 
-Emit a specified event at a specified interval. See /examples for some use cases.
+Emit a specified event at a specified interval. See /examples in this node module for some use cases.
 
 ## Getting started
 
@@ -17,7 +17,7 @@ npm install interval-emitter
 ## Using interval-emitter
 
 ```
-const { IntervalEmitter } = require('interval-emitter');
+const IntervalEmitter = require('interval-emitter');
 
 const myIntervalEmitter = new IntervalEmitter(1000, "my-event");
 
